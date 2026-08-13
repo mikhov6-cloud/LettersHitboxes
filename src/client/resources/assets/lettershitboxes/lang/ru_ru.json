@@ -1,0 +1,9 @@
+{
+  "key.categories.lettershitboxes": "Letters Hitboxes",
+  "key.lettershitboxes.toggle": "Вкл/выкл увеличение хитбоксов",
+  "key.lettershitboxes.gui": "Открыть настройки хитбоксов",
+  "key.lettershitboxes.profile": "Следующий профиль",
+  "key.lettershitboxes.reload": "Перезагрузить конфиг",
+  "key.lettershitboxes.boxes": "Показать контуры хитбоксов",
+  "key.lettershitboxes.models": "Вкл/выкл масштаб моделей"
+}

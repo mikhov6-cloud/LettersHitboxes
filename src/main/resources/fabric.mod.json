@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lettershitboxes",
+  "version": "${version}",
+  "name": "Letters Hitboxes (Client)",
+  "description": "Client-side mod that physically enlarges the hitboxes (real bounding boxes) of mobs and players, with a fully configurable per-entity / per-category rule system. Not a visual-only change.",
+  "authors": [
+    "lettersnumbers"
+  ],
+  "contact": {
+    "sources": "https://github.com/mikhov6-cloud/letters-hitboxes",
+    "issues": "https://github.com/mikhov6-cloud/letters-hitboxes/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/lettershitboxes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.letters.hitboxes.LettersHitboxesClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "lettershitboxes.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.6",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

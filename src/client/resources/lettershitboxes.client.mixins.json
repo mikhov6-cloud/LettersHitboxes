@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.letters.hitboxes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityDimensionsMixin",
+    "LivingEntityDimensionsMixin",
+    "EntityPickRadiusMixin",
+    "LivingEntityRendererMixin",
+    "EntityRenderDispatcherMixin",
+    "EntityRendererShadowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

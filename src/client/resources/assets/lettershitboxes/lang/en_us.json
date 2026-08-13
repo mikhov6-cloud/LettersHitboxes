@@ -1,0 +1,9 @@
+{
+  "key.categories.lettershitboxes": "Letters Hitboxes",
+  "key.lettershitboxes.toggle": "Toggle hitbox expansion",
+  "key.lettershitboxes.gui": "Open hitbox settings",
+  "key.lettershitboxes.profile": "Next hitbox profile",
+  "key.lettershitboxes.reload": "Reload hitbox config",
+  "key.lettershitboxes.boxes": "Toggle hitbox outlines",
+  "key.lettershitboxes.models": "Toggle model scaling"
+}
